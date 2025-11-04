@@ -1,5 +1,6 @@
 
 import './App.css'
+import CardComponent from './components/CardComponent'
 
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
  
   return (
     <>
-    
+    <CardComponent hobbies={["Book Reading", "Content Creation", "Story Telling", "website development"]}/>
     </>
   )
   
